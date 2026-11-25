@@ -5,7 +5,7 @@ import { tmpdir } from 'bare-os'
 import crypto from 'hypercore-crypto'
 import { socketOf, listen, request, open } from '../index.js'
 
-const dir = () => mkdtempSync(join(tmpdir(), 'p2p-local-'))
+const dir = () => mkdtempSync(join(tmpdir(), 'p2p-process-'))
 const hex = b => b.toString('hex')
 
 test('a request answered: the peer its public key, the answer back, the connection ended', async (t) => {

@@ -1,4 +1,4 @@
-// p2p-local: connections for the p2p layer on one machine: a socket in a
+// p2p-process: connections for the p2p layer on one machine: a socket in a
 // folder, served by the process that owns the folder; whoever opens it is
 // a peer, authenticated by its keypair (Noise), so a peer is its public
 // key, as on any other route.

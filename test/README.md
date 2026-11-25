@@ -1,8 +1,8 @@
 # test/
 
-The tests of p2p-local, a section per file, each test by its name.
+The tests of p2p-process, a section per file, each test by its name.
 
-## `local.test.js`
+## `process.test.js`
 
 - a request answered: the peer its public key, the answer back, the connection ended
 - a request refused: the handler's error thrown here; no socket, a socket nobody serves: not reachable

@@ -1,5 +1,5 @@
 {
-  "name": "p2p-local",
+  "name": "p2p-process",
   "description": "Connections for the p2p layer on one machine: a socket in a folder, each connection authenticated by a keypair, a request answered or a stream handed over",
   "type": "module",
   "exports": "./index.js",

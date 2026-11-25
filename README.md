@@ -1,4 +1,4 @@
-# p2p-local
+# p2p-process
 
 Connections for the p2p layer on one machine: a socket in a folder, a request answered or a stream handed over.
 
@@ -15,7 +15,7 @@ none is kept.
 ## Usage
 
 ```js
-import { socketOf, listen, request, open } from 'p2p-local'
+import { socketOf, listen, request, open } from 'p2p-process'
 const server = listen({ path: socketOf(dir, 'rns'), keyPair, onrequest, onstream })
 const answer = await request(path, { op: 'renew' }, { keyPair, peer })   // peer: the key expected
 const stream = await open(path, { keyPair, peer, hello })                // for replication
